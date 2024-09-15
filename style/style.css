@@ -48,9 +48,9 @@ nav>ul>li>a {
 /* header title tag  */
 header {
     background: #FFF8F3;
-    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-image: url('../portfolio-resources/images/header_bg.png'),url('../portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 
 .banner {
@@ -102,7 +102,7 @@ main {
 .about {
     padding: 100px;
     border-radius: 10px;
-    background: #efd0ba;
+    background: #FFF8F3;;
     margin: 50px 10px;
 }
 
@@ -243,5 +243,45 @@ hr {
 
 .download-cv {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+/* footer title tag  */
+.footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+
+.connect>h1 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.connect>p {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 50px;
+    width: 562px;
+}
+
+.connect-from input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+}
+
+#btn {
+    background-color: #FD6E0A;
+    color: #FFF;
 }
